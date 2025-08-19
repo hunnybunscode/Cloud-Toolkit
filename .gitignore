@@ -1,0 +1,10 @@
+.DS_Store
+*.log
+*.bak
+*.swp
+*.tmp
+.env
+.aws
+credentials
+aws_credentials.json
+
