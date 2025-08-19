@@ -13,7 +13,11 @@ EOF
 #!/bin/bash
 
 # ─── Disable bracketed paste to prevent ^[[200~ artifacts ──────────────── #
-bind 'set enable-bracketed-paste off' 2>/dev/null || true
+# Disable bracketed paste on this TTY for the whole script
+disable_bp() { printf '\e[?2004l' > /dev/tty; }
+enable_bp()  { printf '\e[?2004h' > /dev/tty; }
+disable_bp
+trap enable_bp EXIT
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 print_header() { echo -e "\n━━━━━━━━━━━━━━━━ $1 ━━━━━━━━━━━━━━━━"; }
