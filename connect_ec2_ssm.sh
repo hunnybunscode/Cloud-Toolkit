@@ -3,64 +3,87 @@ set -euo pipefail
 
 connect_ec2_ssm() {
   local history_file="$HOME/.ec2_instance_history.txt"
+  local LOCAL_BIN="$HOME/.local/bin"
+  local PLUGIN_PATH="$LOCAL_BIN/session-manager-plugin"
 
-  # Step 0: Ensure Session Manager plugin is installed
+  mkdir -p "$LOCAL_BIN"
+
+  # ─── STEP 0: INSTALL SESSION MANAGER PLUGIN LOCALLY ─────── #
   if ! command -v session-manager-plugin >/dev/null 2>&1; then
-    echo "AWS Session Manager Plugin not found. Installing..."
-    echo "PLEASE BE PATIENT FOR FIRST TIME SETUP"
-    if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-      curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/linux_64bit/session-manager-plugin.rpm" -o /tmp/session-manager-plugin.rpm
-      sudo yum install -y /tmp/session-manager-plugin.rpm || sudo dnf install -y /tmp/session-manager-plugin.rpm
-    elif [[ "$OSTYPE" == "darwin"* ]]; then
-      brew install --cask session-manager-plugin
-    else
-      echo "Unsupported OS. Install manually: https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html"
-      return 1
+    echo "🛠 Session Manager Plugin not found. Installing locally..."
+
+    TMPDIR=$(mktemp -d)
+    trap 'rm -rf "$TMPDIR"' EXIT
+
+    (
+      cd "$TMPDIR"
+      echo "📥 Downloading Session Manager Plugin..."
+      curl --fail --proxy "${https_proxy:-}" \
+        -o plugin.zip \
+        "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/linux_64bit/session-manager-plugin.zip"
+
+      if [[ ! -s plugin.zip ]]; then
+        echo "❌ Download failed or zip is empty. Check your proxy settings."
+        return 1
+      fi
+
+      unzip -q plugin.zip
+      mv session-manager-plugin/bin/session-manager-plugin "$PLUGIN_PATH"
+    )
+
+    chmod +x "$PLUGIN_PATH"
+
+    if ! grep -q 'export PATH="$HOME/.local/bin:$PATH"' "$HOME/.bashrc"; then
+      echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$HOME/.bashrc"
+      export PATH="$HOME/.local/bin:$PATH"
+      echo "🔁 Added ~/.local/bin to PATH in .bashrc and updated current shell"
     fi
 
     if ! command -v session-manager-plugin >/dev/null 2>&1; then
-      echo "Install failed or plugin not in PATH. Exiting."
+      echo "❌ Plugin installation failed or not in PATH."
       return 1
     fi
 
-    echo "Session Manager Plugin installed."
+    echo "✅ Session Manager Plugin installed locally."
   fi
 
-  touch "$history_file"
+  # ─── STEP 1: LIST ALL RUNNING EC2 INSTANCES WITH SSM ─────── #
+  echo
+  echo "━━━━━━━━━━━━━━━━ EC2 Instances with SSM Enabled ━━━━━━━━━━━━━━━━"
 
-  # Step 1: Show saved instance IDs with names
-  if [[ -s "$history_file" ]]; then
-    echo "Saved instance targets:"
-    nl -w2 -s'. ' "$history_file"
-    echo "--------------------------"
-    read -rp "Select your EC2 with its associated number, or press [Enter] to enter new instance ID: " choice
+  mapfile -t ec2_list < <(aws ec2 describe-instances \
+    --filters "Name=instance-state-name,Values=running" \
+              "Name=tag:Name,Values=*" \
+              "Name=instance-state-name,Values=running" \
+    --query "Reservations[].Instances[?State.Name=='running'].[InstanceId, Tags[?Key=='Name']|[0].Value]" \
+    --output text | sort)
 
-    if [[ "$choice" =~ ^[0-9]+$ ]]; then
-      selected_line=$(sed "${choice}q;d" "$history_file")
-      instance_id=$(echo "$selected_line" | cut -d'|' -f1 | xargs)
-    else
-      read -rp "Enter new EC2 Instance ID: " instance_id
-    fi
-  else
-    read -rp "Enter EC2 Instance ID: " instance_id
+  if [[ ${#ec2_list[@]} -eq 0 ]]; then
+    echo "❌ No running EC2 instances with SSM found."
+    return 1
   fi
 
-  # Step 2: If new, fetch instance Name tag and optionally save
-  if ! grep -q "^$instance_id" "$history_file" 2>/dev/null; then
-    name_tag=$(aws ec2 describe-instances \
-      --instance-ids "$instance_id" \
-      --query "Reservations[0].Instances[0].Tags[?Key=='Name'].Value" \
-      --output text 2>/dev/null)
+  for i in "${!ec2_list[@]}"; do
+    id=$(echo "${ec2_list[$i]}" | awk '{print $1}')
+    name=$(echo "${ec2_list[$i]}" | cut -f2- -d' ')
+    printf "[%d] %s\t| %s\n" "$((i+1))" "$name" "$id"
+  done
 
-    read -rp "Would you like to save this ID for future use? (y/n): " save_choice
-    if [[ "$save_choice" =~ ^[Yy]$ ]]; then
-      echo "$instance_id | $name_tag" >> "$history_file"
-      echo "Saved: $instance_id | $name_tag"
-    fi
+  echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  read -rp "Select an EC2 to connect [1-${#ec2_list[@]}]: " selection
+
+  if ! [[ "$selection" =~ ^[0-9]+$ ]] || (( selection < 1 || selection > ${#ec2_list[@]} )); then
+    echo "❌ Invalid selection"
+    return 1
   fi
 
-  # Step 3: Start the SSM session
-  echo "Connecting to $instance_id..."
+  instance_entry="${ec2_list[$((selection-1))]}"
+  instance_id=$(echo "$instance_entry" | awk '{print $1}')
+  name_tag=$(echo "$instance_entry" | cut -f2- -d' ')
+
+  echo
+  echo "🔗 Connecting to: $name_tag ($instance_id)"
+  echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
   aws ssm start-session --target "$instance_id"
 }
 

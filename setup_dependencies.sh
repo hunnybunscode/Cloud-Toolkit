@@ -1,13 +1,9 @@
-#!/usr/bin/env bash
+0~#!/usr/bin/env bash
 set -euo pipefail
 
 ### ─────────────────────────────
 ### Config (edit if needed)
 ### ─────────────────────────────
-HTTPS_PROXY_URL="http://proxy.tr.pri.vi2e.io:3128"
-HTTP_PROXY_URL="http://proxy.tr.pri.vi2e.io:3128"
-NO_PROXY_LIST="169.254.169.254,.vi2e.io,s3.us-gov-west-1.amazonaws.com"
-
 AWSCLI_INSTALL_DIR="$HOME/.aws-cli"
 USER_LOCAL_BIN="$HOME/.local/bin"
 VENV_DIR="$HOME/venvs/ebs-tools"
@@ -29,26 +25,7 @@ need_cmd() {
 }
 print_header() { echo -e "\n━━━━━━━━━━━━━━━━ $1 ━━━━━━━━━━━━━━━━"; }
 
-### 1) Proxy
-print_header "Setting proxy (session)"
-export https_proxy="$HTTPS_PROXY_URL"
-export http_proxy="$HTTP_PROXY_URL"
-export HTTPS_PROXY="$HTTPS_PROXY_URL"
-export HTTP_PROXY="$HTTP_PROXY_URL"
-export NO_PROXY="$NO_PROXY_LIST"
-export no_proxy="$NO_PROXY_LIST"
-echo "✅ Proxies exported for this session."
-
-print_header "Persisting proxy to ~/.bashrc"
-append_once "export https_proxy=$HTTPS_PROXY_URL" "$HOME/.bashrc"
-append_once "export http_proxy=$HTTP_PROXY_URL" "$HOME/.bashrc"
-append_once "export HTTPS_PROXY=$HTTPS_PROXY_URL" "$HOME/.bashrc"
-append_once "export HTTP_PROXY=$HTTP_PROXY_URL" "$HOME/.bashrc"
-append_once "export NO_PROXY=$NO_PROXY_LIST" "$HOME/.bashrc"
-append_once "export no_proxy=$NO_PROXY_LIST" "$HOME/.bashrc"
-echo "✅ Proxies persisted."
-
-### 2) Preflight
+### 1) Preflight
 print_header "Preflight checks (no sudo)"
 need_cmd curl
 need_cmd unzip
@@ -56,14 +33,14 @@ need_cmd python3
 echo "✅ curl, unzip, python3 present."
 python3 -m ensurepip --upgrade >/dev/null 2>&1 || true
 
-### 3) PATH
+### 2) PATH
 print_header "Configuring PATH"
 mkdir -p "$USER_LOCAL_BIN"
 append_once 'export PATH="$HOME/.local/bin:$PATH"' "$HOME/.bashrc"
 export PATH="$HOME/.local/bin:$PATH"
 echo "✅ PATH updated for this session and persisted."
 
-### 4) AWS CLI (idempotent)
+### 3) AWS CLI (idempotent)
 print_header "Installing AWS CLI v2 (user-level)"
 AWS_BIN_CANDIDATE_1="$USER_LOCAL_BIN/aws"
 AWS_BIN_CANDIDATE_2="$AWSCLI_INSTALL_DIR/v2/current/bin/aws"
@@ -108,7 +85,7 @@ else
   echo "✅ AWS CLI installed to $AWSCLI_INSTALL_DIR and linked in $USER_LOCAL_BIN"
 fi
 
-### 5) Python venv + boto (NO 'source activate')
+### 4) Python venv + boto (NO 'source activate')
 print_header "Creating Python virtualenv + installing boto3/botocore"
 mkdir -p "$(dirname "$VENV_DIR")"
 python3 -m venv "$VENV_DIR"
@@ -120,7 +97,7 @@ python3 -m venv "$VENV_DIR"
 append_once "alias ebsenv='source $VENV_DIR/bin/activate'" "$HOME/.bashrc"
 echo "✅ Virtualenv at $VENV_DIR with boto3/botocore installed."
 
-### 6) Verification (no sourcing)
+### 5) Verification (no sourcing)
 print_header "Verifying installations"
 if command -v aws >/dev/null 2>&1; then
   echo -n "AWS CLI: "; aws --version
@@ -135,8 +112,7 @@ print("botocore:", botocore.__version__)
 PY
 
 echo -e "\n✅ All set!"
-echo "• Proxies persisted in ~/.bashrc"
 echo "• AWS CLI in: $AWSCLI_INSTALL_DIR (symlinked in ~/.local/bin)"
 echo "• Virtualenv: $VENV_DIR  (use 'ebsenv' to activate if you want, not required)"
 echo "• PATH includes ~/.local/bin (persisted)"
-
+1~
