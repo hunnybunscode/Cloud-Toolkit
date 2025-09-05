@@ -1,0 +1,117 @@
+{
+  "requestTypeFields": [
+    {
+      "fieldId": "components",
+      "name": "Program/s this request is associated with.",
+      "description": "",
+      "required": true,
+      "validValues": [
+        {
+          "value": "27205",
+          "label": "AFTAC-CLOUD",
+          "children": []
+        }
+      ],
+      "jiraSchema": {
+        "type": "array",
+        "items": "component",
+        "system": "components"
+      }
+    },
+    {
+      "fieldId": "customfield_15202",
+      "name": "Customer Group (for M2O Cloud Brokerage customers only) ",
+      "description": "",
+      "required": false,
+      "validValues": [],
+      "jiraSchema": {
+        "type": "any",
+        "custom": "com.riadalabs.jira.plugins.insight:rlabs-customfield-default-object",
+        "customId": 15202
+      }
+    },
+    {
+      "fieldId": "summary",
+      "name": "Short request summary.",
+      "description": "",
+      "required": true,
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "summary"
+      }
+    },
+    {
+      "fieldId": "customfield_27000",
+      "name": "Is this a request for a new policy/role, or an update to an existing policy/role?",
+      "description": "",
+      "required": true,
+      "validValues": [
+        {
+          "value": "32800",
+          "label": "New",
+          "children": []
+        },
+        {
+          "value": "32801",
+          "label": "Update",
+          "children": []
+        }
+      ],
+      "jiraSchema": {
+        "type": "option",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+        "customId": 27000
+      }
+    },
+    {
+      "fieldId": "description",
+      "name": "Description",
+      "description": "Detailed description of request. \\\\ {color:red}*Please include the following pieces of information:\\\\- Policy/Role name (if requesting a new policy/role please enter your requested policy/role name), \\\\- Requested change for existing policy/role, \\\\- JSON template should be attached if more permissive than PROJADMIN* {color}",
+      "required": true,
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "system": "description"
+      }
+    },
+    {
+      "fieldId": "customfield_14900",
+      "name": "Provide SIA # for change if full ATO has been granted.",
+      "description": "",
+      "required": false,
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 14900
+      }
+    },
+    {
+      "fieldId": "attachment",
+      "name": "Attach ISSM and/or DAO approval for this request. If including screenshots of email, please be sure to show the message is digitally signed.",
+      "description": "",
+      "required": false,
+      "validValues": [],
+      "jiraSchema": {
+        "type": "array",
+        "items": "attachment",
+        "system": "attachment"
+      }
+    },
+    {
+      "fieldId": "customfield_11401",
+      "name": "AWS account name/ID (govCloud account #'s ONLY!)",
+      "description": "",
+      "required": true,
+      "validValues": [],
+      "jiraSchema": {
+        "type": "string",
+        "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "customId": 11401
+      }
+    }
+  ],
+  "canRaiseOnBehalfOf": false,
+  "canAddRequestParticipants": true
+}

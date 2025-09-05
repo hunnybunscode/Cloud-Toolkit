@@ -1,0 +1,25 @@
+HTTP/1.1 200 Connection established
+
+HTTP/1.1 201 Created
+Date: Fri, 22 Aug 2025 14:59:36 GMT
+Content-Type: application/json;charset=UTF-8
+Content-Length: 2563
+Connection: keep-alive
+x-arequestid: 899x506554x1
+x-anodeid: jira-4
+referrer-policy: strict-origin-when-cross-origin
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+content-security-policy: sandbox
+strict-transport-security: max-age=31536000
+server-timing: threadId;desc=4586
+set-cookie: JSESSIONID=050316A100A6EC92070A1D8390993DDB; Path=/; Secure; HttpOnly
+x-seraph-loginreason: OK
+set-cookie: atlassian.xsrf.token=BNXT-332W-PYQL-QZJM_c6c43dcdb284e4f935363ec777e48c9e7cfa372d_lin; Path=/; Secure; SameSite=None
+x-asessionid: 17t4v51
+x-ausername: hunter.hays.3.ctr
+location: https://jira.odin.dso.mil/rest/servicedeskapi/request/583234
+cache-control: no-cache, no-store, no-transform
+set-cookie: JIRACONSISTENTHASH="a1d5e66724057e49"; Max-Age=18000; Path=/; HttpOnly
+
