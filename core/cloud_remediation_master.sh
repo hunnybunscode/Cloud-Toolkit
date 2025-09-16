@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+shopt -s nullglob  # Prevent glob patterns from expanding to literal strings
 
 # ================================================= #
 cat <<EOF
@@ -16,14 +17,15 @@ disable_bp
 trap enable_bp EXIT
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SCRIPT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"   # Repo root
+SCRIPT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+ACTIONS_DIR="$SCRIPT_ROOT/actions"
 
 print_header() { echo -e "\n━━━━━━━━━━━━━━━━ $1 ━━━━━━━━━━━━━━━━"; }
 ok()           { echo "✅ $*"; }
 warn()         { echo "⚠️  $*" >&2; }
 fail()         { echo "❌ $*" >&2; exit 1; }
 
-# 0) Dependency check — only run setup if required
+# ───────────────────────────────────────────────────────────── #
 print_header "Checking dependencies"
 
 missing=0
@@ -51,7 +53,6 @@ ok "Environment refreshed"
 print_header "Validating AWS credentials"
 
 caller_arn=$(aws sts get-caller-identity --query "Arn" --output text 2>/dev/null || echo "")
-
 if [[ "$caller_arn" != "" && "$caller_arn" != "None" && "$caller_arn" != "null" ]]; then
   echo "✅ Valid AWS credentials found:"
   echo "    $caller_arn"
@@ -59,75 +60,137 @@ else
   warn "AWS credentials not found or expired — attempting to prompt"
   echo
   echo "🔐 Paste your AWS credentials block (Ctrl+D to finish):"
-  echo "  export AWS_ACCESS_KEY_ID=..."
-  echo "  export AWS_SECRET_ACCESS_KEY=..."
-  echo "  export AWS_SESSION_TOKEN=..."
-  echo "  export AWS_TOKEN_EXPIRATION=...   # optional"
-
   creds=$(</dev/stdin)
 
-  if [[ -z "$creds" ]]; then
-    fail "❌ No credentials received. Exiting."
-  fi
-
+  if [[ -z "$creds" ]]; then fail "❌ No credentials received. Exiting."; fi
   eval "$creds"
 
   masked_key="${AWS_ACCESS_KEY_ID:0:4}****${AWS_ACCESS_KEY_ID: -4}"
-  echo
-  echo "✅ AWS credentials have been set (in this process)."
+  echo "✅ AWS credentials have been set:"
   echo "  AWS_ACCESS_KEY_ID=$masked_key"
   echo "  AWS_SECRET_ACCESS_KEY=************"
   echo "  AWS_SESSION_TOKEN=************"
   echo "  AWS_TOKEN_EXPIRATION=${AWS_TOKEN_EXPIRATION:-(not set)}"
-  echo
 
   echo "🔎 Verifying with STS..."
   aws sts get-caller-identity --output table || fail "❌ STS failed after setting credentials"
-
-  caller_arn=$(aws sts get-caller-identity --query "Arn" --output text 2>/dev/null || echo "")
-  if [[ "$caller_arn" != "" && "$caller_arn" != "None" && "$caller_arn" != "null" ]]; then
-    echo "✅ AWS credentials are now valid:"
-    echo "    $caller_arn"
-  else
-    fail "❌ AWS credentials are still invalid after prompting"
-  fi
 fi
 
-run_action() {
-  local script="$1" func="$2"
-  if [[ ! -f "$SCRIPT_ROOT/$script" ]]; then fail "Action script not found: $script"; fi
-  source "$SCRIPT_ROOT/$script"
-  if ! declare -F "$func" >/dev/null 2>&1; then fail "Function '$func' not found in $script"; fi
-  "$func"
-}
+# ───────────────────────────────────────────────────────────── #
+declare -gA MENU_MAP=()
+declare -a NAV_STACK=()
 
 print_menu() {
-  print_header "Select a cloud remediation action"
-  cat <<'MENU'
-[1] Encrypt/Read EBS volumes  
-[2] Connect to EC2 (SSM)
-[3] Hardware Inventory Tracker (Xacta)
-[4] Enable EBS Default Encryption (account/region)           # placeholder
-[5] Audit S3 buckets for public access                       # placeholder
-[6] Audit Security Groups for wide-open ports                # placeholder
-[7] Test / No-op (STS echo)
-[0] Exit
-MENU
+  local current_dir="$1"
+  local index=1
+  MENU_MAP=()
+
+  if [[ ! -d "$current_dir" ]]; then
+    warn "Invalid directory: $current_dir"
+    return
+  fi
+
+  local dir_name="$(basename "$current_dir")"
+  print_header "Contents of $dir_name"
+
+  # Show breadcrumb trail
+  local breadcrumb=""
+  for path in "${NAV_STACK[@]}"; do
+    breadcrumb+="/$(basename "$path")"
+  done
+  echo "📍 Path:${breadcrumb:-/Root}"
+
+  local found=0
+
+  for dir in "$current_dir"/*/; do
+    [[ -d "$dir" ]] || continue
+    name="$(basename "$dir")"
+    echo "[$index] 📁 $name"
+    MENU_MAP["$index"]="folder:$dir"
+    ((index++))
+    found=1
+  done
+
+  for file in "$current_dir"/*.sh; do
+    [[ -f "$file" ]] || continue
+    name="$(basename "$file")"
+    echo "[$index] 🧩 $name"
+    MENU_MAP["$index"]="file:$file"
+    ((index++))
+    found=1
+  done
+
+  if [[ "$found" -eq 0 ]]; then
+    echo "⚠️  No actions or folders found in this directory."
+  fi
+
+  echo "[0] Back"
 }
 
-while true; do
-  print_menu
-  read -rp "Enter choice [0-7]: " choice
-  case "${choice:-}" in
-    1) run_action "actions/action_encrypt_ebs.sh"         "action_encrypt_ebs" ;;
-    2) run_action "core/connect_ec2_ssm.sh"               "connect_ec2_ssm"    ;;
-    3) run_action "core/hardware_inventory_tracker_xacta.sh" "hardware_inventory_tracker_xacta" ;;
-    4) run_action "actions/action_enable_ebs_default.sh"  "action_enable_ebs_default" ;;
-    5) run_action "actions/action_audit_s3_public.sh"     "action_audit_s3_public" ;;
-    6) run_action "actions/action_audit_open_sg_rules.sh" "action_audit_open_sg_rules" ;;
-    7) run_action "actions/action_test.sh"                "action_test" ;;
-    0) echo "Bye."; exit 0 ;;
-    *) warn "Invalid selection: ${choice:-<empty>}";;
-  esac
-done
+run_action() {
+  local script="$1"
+  local func="$(basename "$script" .sh)"
+
+  if [[ ! -f "$script" ]]; then
+    fail "Action script not found: $script"
+  fi
+
+  (
+    source "$script"
+
+    if ! declare -F "$func" >/dev/null 2>&1; then
+      fail "Function '$func' not found in $script"
+    fi
+
+    "$func"
+  )
+}
+
+navigate() {
+  local current_dir="$1"
+  NAV_STACK=("$current_dir")
+
+  while true; do
+    print_menu "$current_dir"
+    read -rp "Enter choice: " choice
+
+    if [[ ! "$choice" =~ ^[0-9]+$ ]]; then
+      warn "Invalid input: must be a number"
+      continue
+    fi
+
+    if [[ "$choice" == "0" ]]; then
+      if [[ "${#NAV_STACK[@]}" -gt 1 ]]; then
+        unset 'NAV_STACK[-1]'
+        current_dir="${NAV_STACK[-1]}"
+      else
+        break
+      fi
+      continue
+    fi
+
+    entry="${MENU_MAP[$choice]:-}"
+    if [[ -z "$entry" ]]; then
+      warn "Invalid selection"
+      continue
+    fi
+
+    type="${entry%%:*}"
+    path="${entry#*:}"
+
+    if [[ "$type" == "file" ]]; then
+      run_action "$path"
+    elif [[ "$type" == "folder" ]]; then
+      [[ -d "$path" ]] || { warn "Invalid folder path: $path"; continue; }
+      NAV_STACK+=("$path")
+      current_dir="$path"
+    fi
+  done
+}
+
+# ───────────────────────────────────────────────────────────── #
+navigate "$ACTIONS_DIR"
+NAV_STACK=()
+shopt -u nullglob
+echo "Bye."
 

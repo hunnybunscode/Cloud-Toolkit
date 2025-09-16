@@ -236,7 +236,7 @@ PY
 
     0)
       echo "Bye."
-      exit 0
+      return 0
       ;;
 
     *)
