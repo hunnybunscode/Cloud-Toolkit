@@ -1,0 +1,2450 @@
+[
+  {
+    "key": "DCWHD-16216",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-24T12:44:08-0400",
+    "last_update": "2025-10-01T11:13:29-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-16215",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-24T12:41:23-0400",
+    "last_update": "2025-10-01T11:03:04-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-16200",
+    "requester": "Kylie Johnson",
+    "opened": "2025-09-24T09:18:31-0400",
+    "last_update": "2025-10-01T10:57:40-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-16412",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-30T09:49:37-0400",
+    "last_update": "2025-10-01T09:54:24-0400",
+    "elapsed_days": 1,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-15938",
+    "requester": "LAMIA SMITH",
+    "opened": "2025-09-16T10:44:29-0400",
+    "last_update": "2025-09-30T16:39:42-0400",
+    "elapsed_days": 14,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-16138",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-22T10:54:43-0400",
+    "last_update": "2025-09-30T16:05:42-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-16154",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-22T13:54:54-0400",
+    "last_update": "2025-09-30T15:08:16-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-15963",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-16T14:26:08-0400",
+    "last_update": "2025-09-30T11:09:26-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-16000",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-17T10:38:31-0400",
+    "last_update": "2025-09-30T09:27:23-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-15339",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-08-27T10:49:03-0400",
+    "last_update": "2025-09-30T09:07:20-0400",
+    "elapsed_days": 33,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-15526",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-05T10:48:39-0400",
+    "last_update": "2025-09-30T07:09:59-0400",
+    "elapsed_days": 24,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-16360",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-29T10:05:18-0400",
+    "last_update": "2025-09-29T11:44:23-0400",
+    "elapsed_days": 0,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-16129",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-22T09:32:55-0400",
+    "last_update": "2025-09-29T11:10:40-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-16083",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-18T13:34:33-0400",
+    "last_update": "2025-09-29T10:10:34-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-16090",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-18T14:37:18-0400",
+    "last_update": "2025-09-29T10:06:24-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-15915",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-09-16T08:59:33-0400",
+    "last_update": "2025-09-29T09:08:55-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-16206",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-24T11:04:12-0400",
+    "last_update": "2025-09-29T08:46:48-0400",
+    "elapsed_days": 4,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-15676",
+    "requester": "HUNTER HAYS",
+    "opened": "2025-09-11T11:39:51-0400",
+    "last_update": "2025-09-25T16:52:44-0400",
+    "elapsed_days": 14,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-15376",
+    "requester": "Marc Kruza",
+    "opened": "2025-08-28T11:23:49-0400",
+    "last_update": "2025-09-25T14:26:10-0400",
+    "elapsed_days": 28,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-15340",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-08-27T11:03:57-0400",
+    "last_update": "2025-09-23T12:41:14-0400",
+    "elapsed_days": 27,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-16074",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-18T11:02:51-0400",
+    "last_update": "2025-09-25T10:44:37-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-16065",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-18T09:29:32-0400",
+    "last_update": "2025-09-25T10:18:17-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-16070",
+    "requester": "Kylie Johnson",
+    "opened": "2025-09-18T10:32:10-0400",
+    "last_update": "2025-09-24T15:39:43-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-16033",
+    "requester": "Kylie Johnson",
+    "opened": "2025-09-17T14:08:26-0400",
+    "last_update": "2025-09-24T14:55:11-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-15085",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-18T11:42:55-0400",
+    "last_update": "2025-09-24T10:38:30-0400",
+    "elapsed_days": 36,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-15917",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-16T09:14:23-0400",
+    "last_update": "2025-09-23T13:03:53-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-16089",
+    "requester": "HUNTER HAYS",
+    "opened": "2025-09-18T14:21:27-0400",
+    "last_update": "2025-09-22T09:58:31-0400",
+    "elapsed_days": 3,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-14795",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-07T10:28:56-0400",
+    "last_update": "2025-09-23T12:28:28-0400",
+    "elapsed_days": 47,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-15475",
+    "requester": "Marc Kruza",
+    "opened": "2025-09-03T18:24:05-0400",
+    "last_update": "2025-09-22T13:17:15-0400",
+    "elapsed_days": 18,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-15458",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-03T12:18:53-0400",
+    "last_update": "2025-09-22T13:14:50-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-14907",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-08-12T09:44:13-0400",
+    "last_update": "2025-09-22T12:30:29-0400",
+    "elapsed_days": 41,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-15644",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-09-10T14:22:27-0400",
+    "last_update": "2025-09-22T10:43:48-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-14851",
+    "requester": "John Weaver",
+    "opened": "2025-08-10T19:57:38-0400",
+    "last_update": "2025-09-22T09:32:45-0400",
+    "elapsed_days": 42,
+    "elapsed_hours": 13
+  },
+  {
+    "key": "DCWHD-15693",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-11T14:29:40-0400",
+    "last_update": "2025-09-19T13:58:01-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-15674",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-11T10:40:52-0400",
+    "last_update": "2025-09-19T13:46:06-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-15751",
+    "requester": "Kylie Johnson",
+    "opened": "2025-09-12T12:54:33-0400",
+    "last_update": "2025-09-19T08:52:18-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-15620",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-10T09:03:16-0400",
+    "last_update": "2025-09-18T08:10:57-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-15680",
+    "requester": "Kylie Johnson",
+    "opened": "2025-09-11T12:21:06-0400",
+    "last_update": "2025-09-17T16:31:00-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15389",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-08-28T13:31:05-0400",
+    "last_update": "2025-09-17T09:51:08-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-15555",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-09-08T09:22:30-0400",
+    "last_update": "2025-09-16T13:30:56-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15431",
+    "requester": "Kylie Johnson",
+    "opened": "2025-09-02T09:03:48-0400",
+    "last_update": "2025-09-15T14:14:52-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-14938",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-12T13:45:36-0400",
+    "last_update": "2025-09-10T13:01:19-0400",
+    "elapsed_days": 28,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-15385",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-28T13:19:25-0400",
+    "last_update": "2025-09-10T08:18:48-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-15412",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-29T11:42:45-0400",
+    "last_update": "2025-09-09T16:59:37-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-15437",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-09-02T10:47:49-0400",
+    "last_update": "2025-09-09T12:00:06-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-15239",
+    "requester": "Marc Kruza",
+    "opened": "2025-08-22T11:52:12-0400",
+    "last_update": "2025-09-08T08:39:58-0400",
+    "elapsed_days": 16,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-15408",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-29T09:56:24-0400",
+    "last_update": "2025-09-05T16:21:48-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-14058",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-09T14:12:46-0400",
+    "last_update": "2025-09-05T15:45:41-0400",
+    "elapsed_days": 58,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-15028",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-14T14:08:39-0400",
+    "last_update": "2025-09-05T09:17:34-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-15296",
+    "requester": "Kylie Johnson",
+    "opened": "2025-08-26T09:35:52-0400",
+    "last_update": "2025-09-04T08:42:39-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-15147",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-19T16:02:04-0400",
+    "last_update": "2025-09-03T16:01:07-0400",
+    "elapsed_days": 14,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-15341",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-27T11:26:03-0400",
+    "last_update": "2025-09-03T15:50:28-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15103",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-08-18T14:18:18-0400",
+    "last_update": "2025-09-03T15:49:15-0400",
+    "elapsed_days": 16,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-15159",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-20T10:24:18-0400",
+    "last_update": "2025-09-03T14:11:34-0400",
+    "elapsed_days": 14,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-14764",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-06T12:21:40-0400",
+    "last_update": "2025-09-03T12:48:36-0400",
+    "elapsed_days": 28,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-15213",
+    "requester": "HUNTER HAYS",
+    "opened": "2025-08-21T14:45:14-0400",
+    "last_update": "2025-09-03T12:46:23-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-10248",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-31T13:19:16-0500",
+    "last_update": "2025-09-03T08:44:12-0400",
+    "elapsed_days": 214,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-10247",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-31T13:18:53-0500",
+    "last_update": "2025-09-03T08:44:06-0400",
+    "elapsed_days": 214,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-10937",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-07T07:58:38-0500",
+    "last_update": "2025-09-03T08:43:19-0400",
+    "elapsed_days": 179,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-15273",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-25T12:54:17-0400",
+    "last_update": "2025-09-01T16:22:38-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-15287",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-25T15:42:33-0400",
+    "last_update": "2025-09-01T15:22:03-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-15263",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-25T10:20:07-0400",
+    "last_update": "2025-09-01T15:05:01-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15198",
+    "requester": "Kylie Johnson",
+    "opened": "2025-08-21T11:56:33-0400",
+    "last_update": "2025-08-29T16:32:46-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15017",
+    "requester": "Orion Murray",
+    "opened": "2025-08-14T12:11:29-0400",
+    "last_update": "2025-08-29T16:29:46-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15229",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-22T09:29:03-0400",
+    "last_update": "2025-08-29T13:50:05-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15232",
+    "requester": "HUNTER HAYS",
+    "opened": "2025-08-22T10:59:32-0400",
+    "last_update": "2025-08-28T16:28:59-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-14972",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-13T10:59:05-0400",
+    "last_update": "2025-08-28T13:31:04-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-6285",
+    "requester": "Christopher Moretti",
+    "opened": "2024-06-07T12:37:17-0400",
+    "last_update": "2025-07-07T10:38:52-0400",
+    "elapsed_days": 394,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-14552",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-07-30T08:55:49-0400",
+    "last_update": "2025-08-27T10:24:46-0400",
+    "elapsed_days": 28,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-15192",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-21T11:24:28-0400",
+    "last_update": "2025-08-27T09:23:13-0400",
+    "elapsed_days": 5,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-15081",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-18T11:21:32-0400",
+    "last_update": "2025-08-26T09:00:35-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-14763",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-06T12:03:50-0400",
+    "last_update": "2025-08-26T08:13:27-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-12462",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-30T14:44:07-0400",
+    "last_update": "2025-05-01T09:58:53-0400",
+    "elapsed_days": 0,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-14596",
+    "requester": "LAMIA SMITH",
+    "opened": "2025-07-30T16:07:16-0400",
+    "last_update": "2025-08-20T16:36:50-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-15019",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-14T12:21:39-0400",
+    "last_update": "2025-08-20T16:34:41-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-15018",
+    "requester": "Alex Ortiz-Marrero",
+    "opened": "2025-08-14T12:20:44-0400",
+    "last_update": "2025-08-20T16:20:53-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-14965",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-13T09:20:53-0400",
+    "last_update": "2025-08-20T09:59:25-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-14747",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-05T13:52:45-0400",
+    "last_update": "2025-08-20T09:58:27-0400",
+    "elapsed_days": 14,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-14968",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-13T10:06:53-0400",
+    "last_update": "2025-08-20T09:55:51-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-14663",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-01T09:41:03-0400",
+    "last_update": "2025-08-19T13:28:02-0400",
+    "elapsed_days": 18,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-14905",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-12T09:26:26-0400",
+    "last_update": "2025-08-18T16:30:58-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 7
+  },
+  {
+    "key": "DCWHD-14930",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-12T12:24:20-0400",
+    "last_update": "2025-08-18T16:26:50-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-14927",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-08-12T11:36:31-0400",
+    "last_update": "2025-08-18T15:36:38-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-14222",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-16T10:16:19-0400",
+    "last_update": "2025-08-18T13:34:53-0400",
+    "elapsed_days": 33,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-14906",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-08-12T09:33:44-0400",
+    "last_update": "2025-08-18T13:33:50-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-14838",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-08T12:35:23-0400",
+    "last_update": "2025-08-18T13:32:12-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-14859",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-11T09:16:38-0400",
+    "last_update": "2025-08-18T12:00:00-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-14373",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-07-23T08:58:46-0400",
+    "last_update": "2025-08-15T15:02:00-0400",
+    "elapsed_days": 23,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-14057",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-09T14:01:02-0400",
+    "last_update": "2025-08-15T13:23:06-0400",
+    "elapsed_days": 36,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-14365",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-22T16:26:12-0400",
+    "last_update": "2025-08-15T12:32:25-0400",
+    "elapsed_days": 23,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-14837",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-08T12:34:45-0400",
+    "last_update": "2025-08-15T11:49:52-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-14793",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-07T10:13:40-0400",
+    "last_update": "2025-08-14T08:06:41-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-14417",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-07-24T09:37:28-0400",
+    "last_update": "2025-08-12T13:21:25-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-14664",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-08-01T09:42:42-0400",
+    "last_update": "2025-08-11T12:00:01-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-14631",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-31T12:25:02-0400",
+    "last_update": "2025-08-08T14:04:26-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-14658",
+    "requester": "Kylie Johnson",
+    "opened": "2025-08-01T09:20:39-0400",
+    "last_update": "2025-08-07T16:09:35-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-14571",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-07-30T13:25:20-0400",
+    "last_update": "2025-08-06T12:23:32-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-14681",
+    "requester": "HUNTER HAYS",
+    "opened": "2025-08-01T14:10:24-0400",
+    "last_update": "2025-08-06T11:45:11-0400",
+    "elapsed_days": 4,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-12956",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-05-21T09:22:03-0400",
+    "last_update": "2025-08-04T14:26:20-0400",
+    "elapsed_days": 75,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-14199",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-15T14:22:26-0400",
+    "last_update": "2025-08-04T13:37:31-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-14467",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-07-25T14:03:52-0400",
+    "last_update": "2025-08-01T16:38:28-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-14224",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-16T10:23:02-0400",
+    "last_update": "2025-08-01T15:42:13-0400",
+    "elapsed_days": 16,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-14286",
+    "requester": "Kylie Johnson",
+    "opened": "2025-07-18T11:47:04-0400",
+    "last_update": "2025-07-31T15:56:27-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-13886",
+    "requester": "John Weaver",
+    "opened": "2025-07-01T08:46:25-0400",
+    "last_update": "2025-07-31T13:18:34-0400",
+    "elapsed_days": 30,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-14359",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-22T15:10:33-0400",
+    "last_update": "2025-07-30T16:26:51-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-13978",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-07-03T13:33:32-0400",
+    "last_update": "2025-07-24T16:49:05-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-13793",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-26T10:13:03-0400",
+    "last_update": "2025-07-23T14:20:07-0400",
+    "elapsed_days": 27,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-12967",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-05-21T11:43:37-0400",
+    "last_update": "2025-07-22T15:05:05-0400",
+    "elapsed_days": 62,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-14206",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-07-15T16:05:39-0400",
+    "last_update": "2025-07-22T12:00:00-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-14181",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-07-15T09:52:43-0400",
+    "last_update": "2025-07-21T15:42:43-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-13981",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-07-03T14:20:33-0400",
+    "last_update": "2025-07-18T14:11:09-0400",
+    "elapsed_days": 14,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-14025",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-08T11:44:04-0400",
+    "last_update": "2025-07-18T12:34:09-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-14101",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-10T09:29:35-0400",
+    "last_update": "2025-07-18T09:51:20-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-13977",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-07-03T13:25:45-0400",
+    "last_update": "2025-07-16T12:00:06-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-13757",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-25T09:11:20-0400",
+    "last_update": "2025-07-15T15:36:35-0400",
+    "elapsed_days": 20,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-13573",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-17T13:16:19-0400",
+    "last_update": "2025-07-11T14:17:18-0400",
+    "elapsed_days": 24,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-13806",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-26T13:33:47-0400",
+    "last_update": "2025-07-11T13:41:02-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-13869",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-30T15:49:37-0400",
+    "last_update": "2025-07-11T12:00:00-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-12626",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-05-07T12:54:13-0400",
+    "last_update": "2025-07-10T14:44:35-0400",
+    "elapsed_days": 64,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-13905",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-07-01T12:52:59-0400",
+    "last_update": "2025-07-09T08:05:20-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-13560",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-06-17T09:15:04-0400",
+    "last_update": "2025-07-08T13:01:14-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-13568",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-17T12:35:50-0400",
+    "last_update": "2025-07-08T10:17:37-0400",
+    "elapsed_days": 20,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-13744",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-24T15:03:23-0400",
+    "last_update": "2025-07-07T14:42:37-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-13737",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-24T13:01:29-0400",
+    "last_update": "2025-07-03T08:15:40-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-13504",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-13T09:19:25-0400",
+    "last_update": "2025-07-01T16:45:23-0400",
+    "elapsed_days": 18,
+    "elapsed_hours": 7
+  },
+  {
+    "key": "DCWHD-11496",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-27T14:25:22-0400",
+    "last_update": "2025-06-30T12:22:23-0400",
+    "elapsed_days": 94,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-13445",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-11T13:21:40-0400",
+    "last_update": "2025-06-27T14:03:23-0400",
+    "elapsed_days": 16,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-13534",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-16T09:51:34-0400",
+    "last_update": "2025-06-27T13:37:42-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-13574",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-17T13:33:12-0400",
+    "last_update": "2025-06-27T13:18:55-0400",
+    "elapsed_days": 9,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-13567",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-17T12:26:28-0400",
+    "last_update": "2025-06-26T15:33:14-0400",
+    "elapsed_days": 9,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-13503",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-13T09:09:09-0400",
+    "last_update": "2025-06-24T15:16:07-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-13489",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-12T14:41:29-0400",
+    "last_update": "2025-06-23T14:21:10-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-13194",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-02T14:03:29-0400",
+    "last_update": "2025-06-23T08:49:20-0400",
+    "elapsed_days": 20,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-13315",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-05T12:11:07-0400",
+    "last_update": "2025-06-20T12:07:48-0400",
+    "elapsed_days": 14,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-13481",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-12T13:02:27-0400",
+    "last_update": "2025-06-20T09:14:16-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-13415",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-10T11:48:44-0400",
+    "last_update": "2025-06-20T09:06:59-0400",
+    "elapsed_days": 9,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-13406",
+    "requester": "Orion Murray",
+    "opened": "2025-06-10T09:23:41-0400",
+    "last_update": "2025-06-17T11:05:12-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-13094",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-05-28T13:35:51-0400",
+    "last_update": "2025-06-17T08:04:56-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-13108",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-05-29T09:24:54-0400",
+    "last_update": "2025-06-12T09:11:51-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-13251",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-03T14:35:51-0400",
+    "last_update": "2025-06-13T14:45:57-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-13377",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-06-09T10:07:34-0400",
+    "last_update": "2025-06-13T14:24:02-0400",
+    "elapsed_days": 4,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-13240",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-06-03T11:09:57-0400",
+    "last_update": "2025-06-13T13:17:10-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-13312",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-05T10:48:18-0400",
+    "last_update": "2025-06-12T15:03:27-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-11001",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-11T11:14:22-0400",
+    "last_update": "2025-06-10T10:27:34-0400",
+    "elapsed_days": 90,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-13185",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-02T11:14:42-0400",
+    "last_update": "2025-06-10T08:24:26-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-11525",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-28T10:54:30-0400",
+    "last_update": "2025-06-10T08:21:19-0400",
+    "elapsed_days": 73,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-11478",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-27T10:57:21-0400",
+    "last_update": "2025-06-10T08:21:06-0400",
+    "elapsed_days": 74,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-13218",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-06-03T09:57:08-0400",
+    "last_update": "2025-06-09T16:27:54-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-13167",
+    "requester": "Kylie Johnson",
+    "opened": "2025-05-30T10:49:11-0400",
+    "last_update": "2025-06-09T14:04:08-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-13116",
+    "requester": "Jason Pate",
+    "opened": "2025-05-29T11:46:46-0400",
+    "last_update": "2025-06-09T10:10:49-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-7781",
+    "requester": "Canaan Kennedy",
+    "opened": "2024-09-05T13:27:10-0400",
+    "last_update": "2025-06-05T13:33:11-0400",
+    "elapsed_days": 273,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-13133",
+    "requester": "Kylie Johnson",
+    "opened": "2025-05-29T14:40:05-0400",
+    "last_update": "2025-06-05T09:54:14-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-12834",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-05-15T13:29:27-0400",
+    "last_update": "2025-06-03T16:48:57-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-11974",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-14T15:56:52-0400",
+    "last_update": "2025-04-25T12:00:43-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-12687",
+    "requester": "April Galeota",
+    "opened": "2025-05-09T15:24:44-0400",
+    "last_update": "2025-05-30T12:41:41-0400",
+    "elapsed_days": 20,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-12950",
+    "requester": "Orion Murray",
+    "opened": "2025-05-21T07:41:57-0400",
+    "last_update": "2025-05-29T16:15:41-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 8
+  },
+  {
+    "key": "DCWHD-12998",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-22T10:19:58-0400",
+    "last_update": "2025-05-29T14:41:18-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-8014",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2024-09-19T14:57:07-0400",
+    "last_update": "2025-05-27T11:24:21-0400",
+    "elapsed_days": 249,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-12269",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-04-23T16:20:59-0400",
+    "last_update": "2025-05-27T11:23:11-0400",
+    "elapsed_days": 33,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-12874",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-16T14:46:00-0400",
+    "last_update": "2025-05-26T12:00:00-0400",
+    "elapsed_days": 9,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-12891",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-05-19T10:14:15-0400",
+    "last_update": "2025-05-23T12:08:50-0400",
+    "elapsed_days": 4,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-12759",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-05-14T09:59:58-0400",
+    "last_update": "2025-05-20T14:11:43-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-12711",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-12T11:46:19-0400",
+    "last_update": "2025-05-20T12:00:00-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-12744",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-13T13:45:20-0400",
+    "last_update": "2025-05-20T09:03:22-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-12700",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-12T09:26:07-0400",
+    "last_update": "2025-05-20T08:55:30-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-12649",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-08T10:44:02-0400",
+    "last_update": "2025-05-20T08:54:17-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-12506",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-05-02T11:37:58-0400",
+    "last_update": "2025-05-19T14:05:27-0400",
+    "elapsed_days": 17,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-12623",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-05-07T12:07:30-0400",
+    "last_update": "2025-05-19T08:41:10-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-12701",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-12T09:28:08-0400",
+    "last_update": "2025-05-16T13:49:48-0400",
+    "elapsed_days": 4,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-12507",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-05-02T11:42:44-0400",
+    "last_update": "2025-05-16T10:32:32-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-12224",
+    "requester": "Orion Murray",
+    "opened": "2025-04-22T13:11:19-0400",
+    "last_update": "2025-05-16T10:08:16-0400",
+    "elapsed_days": 23,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-12648",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-08T10:31:27-0400",
+    "last_update": "2025-05-16T08:12:28-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-11550",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-03-31T09:16:05-0400",
+    "last_update": "2025-05-15T15:11:28-0400",
+    "elapsed_days": 45,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-12640",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-07T16:08:52-0400",
+    "last_update": "2025-05-15T14:57:47-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-12364",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-04-28T11:16:20-0400",
+    "last_update": "2025-05-15T09:46:42-0400",
+    "elapsed_days": 16,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-12381",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-04-28T14:18:03-0400",
+    "last_update": "2025-05-14T12:53:57-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-12632",
+    "requester": "Gregory Mabins",
+    "opened": "2025-05-07T14:30:32-0400",
+    "last_update": "2025-05-14T10:04:58-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-12544",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-05T10:33:11-0400",
+    "last_update": "2025-05-13T10:37:54-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-12508",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-02T11:47:50-0400",
+    "last_update": "2025-05-12T14:30:25-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-12577",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-05-06T10:13:07-0400",
+    "last_update": "2025-05-12T14:21:35-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-12211",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-04-22T09:10:36-0400",
+    "last_update": "2025-05-09T15:12:47-0400",
+    "elapsed_days": 17,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-12283",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-24T11:35:06-0400",
+    "last_update": "2025-05-09T13:37:19-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11387",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-24T13:11:18-0400",
+    "last_update": "2025-05-08T14:06:42-0400",
+    "elapsed_days": 45,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-11815",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-04-08T10:04:30-0400",
+    "last_update": "2025-05-08T07:15:35-0400",
+    "elapsed_days": 29,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-12470",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-05-01T08:38:24-0400",
+    "last_update": "2025-05-07T15:22:02-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-12334",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-25T14:53:06-0400",
+    "last_update": "2025-05-06T14:33:08-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-12543",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-05-05T10:21:07-0400",
+    "last_update": "2025-05-06T08:27:47-0400",
+    "elapsed_days": 0,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-11785",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-07T10:45:57-0400",
+    "last_update": "2025-05-05T16:38:34-0400",
+    "elapsed_days": 28,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-12385",
+    "requester": "April Galeota",
+    "opened": "2025-04-28T14:32:16-0400",
+    "last_update": "2025-05-05T16:13:44-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-12409",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-04-29T10:17:08-0400",
+    "last_update": "2025-05-05T15:48:01-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-12362",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-04-28T11:13:25-0400",
+    "last_update": "2025-05-05T10:02:50-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-12329",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-25T13:50:57-0400",
+    "last_update": "2025-05-02T16:31:35-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-12368",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-28T11:40:55-0400",
+    "last_update": "2025-05-02T16:05:04-0400",
+    "elapsed_days": 4,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-12308",
+    "requester": "April Galeota",
+    "opened": "2025-04-25T09:58:53-0400",
+    "last_update": "2025-05-02T12:47:53-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-12294",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-24T15:26:51-0400",
+    "last_update": "2025-05-02T09:36:22-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-10794",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-28T12:15:21-0500",
+    "last_update": "2025-05-02T08:14:28-0400",
+    "elapsed_days": 62,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-12239",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-04-23T08:45:28-0400",
+    "last_update": "2025-05-01T15:51:34-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 7
+  },
+  {
+    "key": "DCWHD-12047",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-16T10:30:51-0400",
+    "last_update": "2025-05-01T13:31:37-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-11984",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-04-15T10:45:06-0400",
+    "last_update": "2025-05-01T08:19:35-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-12109",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-17T11:43:47-0400",
+    "last_update": "2025-04-30T13:53:05-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11836",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-04-08T14:48:15-0400",
+    "last_update": "2025-04-30T12:59:45-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-11644",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-04-02T09:43:00-0400",
+    "last_update": "2025-04-30T12:00:03-0400",
+    "elapsed_days": 28,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11853",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-09T08:46:04-0400",
+    "last_update": "2025-04-30T09:54:25-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-11854",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-09T08:46:59-0400",
+    "last_update": "2025-04-30T09:50:31-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-10938",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-07T08:03:07-0500",
+    "last_update": "2025-04-29T08:14:48-0400",
+    "elapsed_days": 52,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-12144",
+    "requester": "Kylie Johnson",
+    "opened": "2025-04-18T12:00:43-0400",
+    "last_update": "2025-04-28T13:34:51-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-12105",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-17T11:32:32-0400",
+    "last_update": "2025-04-28T09:35:59-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-12134",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-18T09:36:00-0400",
+    "last_update": "2025-04-25T16:21:10-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-12097",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-17T09:51:19-0400",
+    "last_update": "2025-04-25T14:55:56-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-11856",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-09T09:44:45-0400",
+    "last_update": "2025-04-25T14:25:42-0400",
+    "elapsed_days": 16,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-11998",
+    "requester": "Kylie Johnson",
+    "opened": "2025-04-15T12:38:51-0400",
+    "last_update": "2025-04-23T15:08:23-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-12010",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-15T12:49:08-0400",
+    "last_update": "2025-04-22T15:39:05-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11414",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-03-25T10:46:25-0400",
+    "last_update": "2025-04-21T12:41:51-0400",
+    "elapsed_days": 27,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-12034",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-15T15:49:18-0400",
+    "last_update": "2025-04-21T10:51:32-0400",
+    "elapsed_days": 5,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-12033",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-04-15T15:47:47-0400",
+    "last_update": "2025-04-21T10:49:59-0400",
+    "elapsed_days": 5,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-10567",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-18T09:11:34-0500",
+    "last_update": "2025-04-18T09:32:07-0400",
+    "elapsed_days": 58,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-10771",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-02-27T14:11:24-0500",
+    "last_update": "2025-04-18T09:21:01-0400",
+    "elapsed_days": 49,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-11549",
+    "requester": "JONATHAN EDWARDS",
+    "opened": "2025-03-31T09:12:27-0400",
+    "last_update": "2025-04-18T08:43:43-0400",
+    "elapsed_days": 17,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-11904",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-10T10:44:54-0400",
+    "last_update": "2025-04-18T08:34:59-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-11557",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-03-31T10:31:48-0400",
+    "last_update": "2025-04-17T08:34:19-0400",
+    "elapsed_days": 16,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-11365",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-03-24T08:37:05-0400",
+    "last_update": "2025-04-15T13:59:02-0400",
+    "elapsed_days": 22,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-11683",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-04-02T15:26:04-0400",
+    "last_update": "2025-04-15T12:00:00-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-11681",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-04-02T15:17:54-0400",
+    "last_update": "2025-04-14T11:29:51-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-11740",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-04-04T13:37:33-0400",
+    "last_update": "2025-04-11T15:02:29-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-11666",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-04-02T11:47:54-0400",
+    "last_update": "2025-04-11T15:01:58-0400",
+    "elapsed_days": 9,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-11554",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-31T09:52:12-0400",
+    "last_update": "2025-04-11T12:35:22-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11742",
+    "requester": "CHRISTIAN RICHARDSON",
+    "opened": "2025-04-04T13:41:03-0400",
+    "last_update": "2025-04-11T12:34:45-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-11738",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-04T12:52:04-0400",
+    "last_update": "2025-04-11T08:05:31-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-9642",
+    "requester": "April Galeota",
+    "opened": "2024-12-19T15:55:19-0500",
+    "last_update": "2025-04-08T14:43:24-0400",
+    "elapsed_days": 109,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-11408",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-25T08:11:27-0400",
+    "last_update": "2025-04-07T16:12:20-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 8
+  },
+  {
+    "key": "DCWHD-11590",
+    "requester": "Joshua Alderman",
+    "opened": "2025-04-01T08:05:04-0400",
+    "last_update": "2025-04-07T12:44:27-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-10245",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-31T13:18:09-0500",
+    "last_update": "2025-04-07T12:25:56-0400",
+    "elapsed_days": 65,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-11096",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-14T13:17:43-0400",
+    "last_update": "2025-04-04T14:04:45-0400",
+    "elapsed_days": 21,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-11164",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-18T10:14:23-0400",
+    "last_update": "2025-04-04T12:39:47-0400",
+    "elapsed_days": 17,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11140",
+    "requester": "April Galeota",
+    "opened": "2025-03-17T15:17:45-0400",
+    "last_update": "2025-04-04T09:25:56-0400",
+    "elapsed_days": 17,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-11369",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-24T09:21:03-0400",
+    "last_update": "2025-04-03T10:15:30-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-11388",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-24T13:40:53-0400",
+    "last_update": "2025-04-01T16:31:24-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11389",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-24T13:41:41-0400",
+    "last_update": "2025-04-01T16:29:45-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11370",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-24T09:24:54-0400",
+    "last_update": "2025-04-01T12:00:02-0400",
+    "elapsed_days": 8,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-10999",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-03-11T10:27:34-0400",
+    "last_update": "2025-03-31T14:39:17-0400",
+    "elapsed_days": 20,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-10893",
+    "requester": "Canaan Kennedy",
+    "opened": "2025-03-05T12:23:37-0500",
+    "last_update": "2025-03-31T14:38:05-0400",
+    "elapsed_days": 26,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-11177",
+    "requester": "Colby Hildenbrand",
+    "opened": "2025-03-18T11:55:54-0400",
+    "last_update": "2025-03-28T14:24:30-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11338",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-03-21T09:35:23-0400",
+    "last_update": "2025-03-28T13:49:03-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-11155",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-18T08:50:07-0400",
+    "last_update": "2025-03-27T16:51:16-0400",
+    "elapsed_days": 9,
+    "elapsed_hours": 8
+  },
+  {
+    "key": "DCWHD-10765",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-27T10:07:57-0500",
+    "last_update": "2025-03-27T14:09:26-0400",
+    "elapsed_days": 28,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-10764",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-27T09:28:11-0500",
+    "last_update": "2025-03-26T11:31:15-0400",
+    "elapsed_days": 27,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-11245",
+    "requester": "John Weaver",
+    "opened": "2025-03-19T11:55:45-0400",
+    "last_update": "2025-03-26T09:12:11-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-11235",
+    "requester": "Kylie Johnson",
+    "opened": "2025-03-19T10:55:37-0400",
+    "last_update": "2025-03-25T15:14:54-0400",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-11163",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-18T10:12:14-0400",
+    "last_update": "2025-03-25T13:56:30-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-10280",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-03T14:41:12-0500",
+    "last_update": "2025-03-25T12:00:00-0400",
+    "elapsed_days": 49,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-10907",
+    "requester": "April Galeota",
+    "opened": "2025-03-05T14:21:24-0500",
+    "last_update": "2025-03-25T10:42:26-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-11089",
+    "requester": "Canaan Kennedy",
+    "opened": "2025-03-14T09:50:46-0400",
+    "last_update": "2025-03-25T09:28:56-0400",
+    "elapsed_days": 10,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-9796",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-08T10:46:11-0500",
+    "last_update": "2025-03-24T14:38:41-0400",
+    "elapsed_days": 75,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-10879",
+    "requester": "April Galeota",
+    "opened": "2025-03-05T09:27:14-0500",
+    "last_update": "2025-03-24T12:47:26-0400",
+    "elapsed_days": 19,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-11021",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-12T08:16:34-0400",
+    "last_update": "2025-03-24T10:14:31-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-10978",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-10T13:47:13-0400",
+    "last_update": "2025-03-24T09:47:22-0400",
+    "elapsed_days": 13,
+    "elapsed_hours": 20
+  },
+  {
+    "key": "DCWHD-10882",
+    "requester": "Joshua Alderman",
+    "opened": "2025-03-05T10:28:49-0500",
+    "last_update": "2025-03-20T14:40:03-0400",
+    "elapsed_days": 15,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-10994",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-03-11T09:42:34-0400",
+    "last_update": "2025-03-18T13:54:45-0400",
+    "elapsed_days": 7,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-10929",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-03-06T14:47:41-0500",
+    "last_update": "2025-03-18T13:52:12-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-9602",
+    "requester": "Canaan Kennedy",
+    "opened": "2024-12-18T08:20:14-0500",
+    "last_update": "2025-03-14T09:26:16-0400",
+    "elapsed_days": 86,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-10246",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-31T13:18:34-0500",
+    "last_update": "2025-03-06T11:33:46-0500",
+    "elapsed_days": 33,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-9792",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-08T09:19:42-0500",
+    "last_update": "2025-03-12T14:51:52-0400",
+    "elapsed_days": 63,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-10789",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-02-28T11:43:45-0500",
+    "last_update": "2025-03-12T11:32:59-0400",
+    "elapsed_days": 11,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-10760",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-27T09:00:19-0500",
+    "last_update": "2025-03-12T08:45:43-0400",
+    "elapsed_days": 12,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-9827",
+    "requester": "John Weaver",
+    "opened": "2025-01-09T11:32:04-0500",
+    "last_update": "2025-03-11T15:00:18-0400",
+    "elapsed_days": 61,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-10584",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-02-18T12:38:18-0500",
+    "last_update": "2025-03-10T16:10:11-0400",
+    "elapsed_days": 20,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-10194",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-30T09:32:06-0500",
+    "last_update": "2025-03-10T09:48:34-0400",
+    "elapsed_days": 38,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-9148",
+    "requester": "Joshua Alderman",
+    "opened": "2024-11-21T14:17:27-0500",
+    "last_update": "2025-03-07T15:08:26-0500",
+    "elapsed_days": 106,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-9848",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-10T08:10:29-0500",
+    "last_update": "2025-03-07T15:08:06-0500",
+    "elapsed_days": 56,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-9805",
+    "requester": "Canaan Kennedy",
+    "opened": "2025-01-08T12:35:50-0500",
+    "last_update": "2025-03-07T14:32:10-0500",
+    "elapsed_days": 58,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-8532",
+    "requester": "Joshua Alderman",
+    "opened": "2024-10-18T08:43:36-0400",
+    "last_update": "2025-03-07T12:54:25-0500",
+    "elapsed_days": 140,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-9983",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-17T08:16:27-0500",
+    "last_update": "2025-03-05T08:29:23-0500",
+    "elapsed_days": 47,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-9982",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-17T08:14:33-0500",
+    "last_update": "2025-03-04T16:44:38-0500",
+    "elapsed_days": 46,
+    "elapsed_hours": 8
+  },
+  {
+    "key": "DCWHD-10620",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-02-19T11:43:58-0500",
+    "last_update": "2025-03-04T08:54:44-0500",
+    "elapsed_days": 12,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-10489",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-02-12T10:31:03-0500",
+    "last_update": "2025-03-03T08:11:45-0500",
+    "elapsed_days": 18,
+    "elapsed_hours": 21
+  },
+  {
+    "key": "DCWHD-10641",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-20T10:10:44-0500",
+    "last_update": "2025-02-28T13:10:52-0500",
+    "elapsed_days": 8,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-10615",
+    "requester": "April Galeota",
+    "opened": "2025-02-19T10:39:11-0500",
+    "last_update": "2025-02-26T14:22:25-0500",
+    "elapsed_days": 7,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-9125",
+    "requester": "Joshua Alderman",
+    "opened": "2024-11-21T12:00:11-0500",
+    "last_update": "2025-02-20T16:01:45-0500",
+    "elapsed_days": 91,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-9124",
+    "requester": "Joshua Alderman",
+    "opened": "2024-11-21T11:59:18-0500",
+    "last_update": "2025-02-20T13:47:32-0500",
+    "elapsed_days": 91,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-10325",
+    "requester": "Canaan Kennedy",
+    "opened": "2025-02-05T09:23:32-0500",
+    "last_update": "2025-02-14T13:07:27-0500",
+    "elapsed_days": 9,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-10372",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-06T13:13:32-0500",
+    "last_update": "2025-02-14T11:26:15-0500",
+    "elapsed_days": 7,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-10077",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-24T11:02:08-0500",
+    "last_update": "2025-02-13T13:13:55-0500",
+    "elapsed_days": 20,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-10370",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-06T12:11:43-0500",
+    "last_update": "2025-02-13T10:15:55-0500",
+    "elapsed_days": 6,
+    "elapsed_hours": 22
+  },
+  {
+    "key": "DCWHD-10327",
+    "requester": "Joshua Alderman",
+    "opened": "2025-02-05T10:02:55-0500",
+    "last_update": "2025-02-13T09:25:53-0500",
+    "elapsed_days": 7,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-10314",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-02-04T13:06:34-0500",
+    "last_update": "2025-02-12T15:56:43-0500",
+    "elapsed_days": 8,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-10264",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-02-03T11:43:12-0500",
+    "last_update": "2025-02-12T15:34:40-0500",
+    "elapsed_days": 9,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-9627",
+    "requester": "Canaan Kennedy",
+    "opened": "2024-12-19T08:16:32-0500",
+    "last_update": "2025-02-11T15:07:10-0500",
+    "elapsed_days": 54,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-10251",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-31T13:41:54-0500",
+    "last_update": "2025-02-11T09:08:39-0500",
+    "elapsed_days": 10,
+    "elapsed_hours": 19
+  },
+  {
+    "key": "DCWHD-10250",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-31T13:41:40-0500",
+    "last_update": "2025-02-10T13:22:29-0500",
+    "elapsed_days": 9,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-10235",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-31T10:31:23-0500",
+    "last_update": "2025-02-06T15:03:22-0500",
+    "elapsed_days": 6,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-10034",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-22T11:19:05-0500",
+    "last_update": "2025-02-06T14:25:33-0500",
+    "elapsed_days": 15,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-8957",
+    "requester": "Joshua Alderman",
+    "opened": "2024-11-13T12:50:31-0500",
+    "last_update": "2025-02-06T14:20:31-0500",
+    "elapsed_days": 85,
+    "elapsed_hours": 1
+  },
+  {
+    "key": "DCWHD-8930",
+    "requester": "Joshua Alderman",
+    "opened": "2024-11-12T12:10:47-0500",
+    "last_update": "2025-02-06T14:20:12-0500",
+    "elapsed_days": 86,
+    "elapsed_hours": 2
+  },
+  {
+    "key": "DCWHD-10100",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-27T10:22:14-0500",
+    "last_update": "2025-02-05T09:31:32-0500",
+    "elapsed_days": 8,
+    "elapsed_hours": 23
+  },
+  {
+    "key": "DCWHD-10149",
+    "requester": "Sharee Khaldi",
+    "opened": "2025-01-29T08:48:07-0500",
+    "last_update": "2025-02-04T16:36:02-0500",
+    "elapsed_days": 6,
+    "elapsed_hours": 7
+  },
+  {
+    "key": "DCWHD-9174",
+    "requester": "Joshua Alderman",
+    "opened": "2024-11-25T10:12:29-0500",
+    "last_update": "2025-02-04T10:38:28-0500",
+    "elapsed_days": 71,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-10056",
+    "requester": "April Galeota",
+    "opened": "2025-01-23T13:06:35-0500",
+    "last_update": "2025-01-30T16:39:46-0500",
+    "elapsed_days": 7,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-10027",
+    "requester": "Joshua Alderman",
+    "opened": "2025-01-22T08:13:11-0500",
+    "last_update": "2025-01-28T13:58:24-0500",
+    "elapsed_days": 6,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-8820",
+    "requester": "Canaan Kennedy",
+    "opened": "2024-11-05T09:36:38-0500",
+    "last_update": "2024-11-27T09:56:32-0500",
+    "elapsed_days": 22,
+    "elapsed_hours": 0
+  },
+  {
+    "key": "DCWHD-7833",
+    "requester": "April Galeota",
+    "opened": "2024-09-10T09:26:07-0400",
+    "last_update": "2024-09-30T14:02:14-0400",
+    "elapsed_days": 20,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-6431",
+    "requester": "Joshua Alderman",
+    "opened": "2024-06-17T10:39:55-0400",
+    "last_update": "2024-08-19T14:10:01-0400",
+    "elapsed_days": 63,
+    "elapsed_hours": 3
+  },
+  {
+    "key": "DCWHD-6156",
+    "requester": "Joshua Alderman",
+    "opened": "2024-06-03T10:26:14-0400",
+    "last_update": "2024-06-03T14:34:41-0400",
+    "elapsed_days": 0,
+    "elapsed_hours": 4
+  },
+  {
+    "key": "DCWHD-5653",
+    "requester": "Christopher Moretti",
+    "opened": "2024-05-03T08:24:49-0400",
+    "last_update": "2024-05-08T14:00:00-0400",
+    "elapsed_days": 5,
+    "elapsed_hours": 5
+  },
+  {
+    "key": "DCWHD-3998",
+    "requester": "April Galeota",
+    "opened": "2024-02-06T15:29:08-0500",
+    "last_update": "2024-03-20T11:04:17-0400",
+    "elapsed_days": 42,
+    "elapsed_hours": 18
+  },
+  {
+    "key": "DCWHD-3910",
+    "requester": "Beth Shenk",
+    "opened": "2024-02-02T07:09:38-0500",
+    "last_update": "2024-02-23T13:59:16-0500",
+    "elapsed_days": 21,
+    "elapsed_hours": 6
+  },
+  {
+    "key": "DCWHD-3677",
+    "requester": "Zachary  Sedlock",
+    "opened": "2024-01-22T07:23:22-0500",
+    "last_update": "2024-01-24T18:00:00-0500",
+    "elapsed_days": 2,
+    "elapsed_hours": 10
+  }
+]
