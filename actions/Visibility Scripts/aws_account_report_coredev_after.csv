@@ -1,0 +1,187 @@
+InstanceId,InstanceName,AvailabilityZone,VolumeId,Encrypted,SecurityGroups
+i-0fa6c8cbb26d9bc28,aftac-pla-core-dev-keycloak-ec2,us-gov-west-1a,vol-05dd603f6ca60ae02,False,sg-057ac72179c6943fe
+i-0f89d0fbc9f11d65a,aftac-pla-core-dev-keycloak-ec2-stable,us-gov-west-1b,vol-06492bf71ddc3877d,False,sg-0eadae2cb045d68ec;sg-0462a96985a18da0f;sg-063438d64b6d2181b;sg-057ac72179c6943fe
+i-0fcc3e1d47632b9ee,aftac-pla-core-dev-keycloak-verification,us-gov-west-1a,vol-0f2481a9287999aa5,False,sg-03c14a32941fe80ef;sg-0eadae2cb045d68ec;sg-0b4c61b648ccf00d3;sg-057ac72179c6943fe
+i-0c19abda7dfbdfefe,aftac-pla-core-dev-keycloak_af-ec2,us-gov-west-1b,vol-0146565a6797887d8,False,sg-0eadae2cb045d68ec;sg-057ac72179c6943fe
+i-05d774c2badc91ffe,aftac-pla-core-dev-keycloak-ec2-demo-ctf,us-gov-west-1b,vol-0388c32a915118b13,False,sg-0b330e6b8d9a0d2ed
+i-0bf0cf667b82c0d2a,EHSA-WebServer-ScanLoadScan,us-gov-west-1b,vol-0dc8e0839fc5e45c9,False,sg-0134fe17f2bc66b8c;sg-01506f8319fc748e2
+i-0434755c57e458e0b,EKS-TEST-AMI-BUILD,us-gov-west-1b,vol-0ac9c04344a4fdd47,False,sg-01ca14af7a99c34e4
+i-081fe0f074ccd3f9c,Test-For-CICD,us-gov-west-1b,vol-0a5a228a744fe1699,False,sg-082758c5fc9a525df
+i-010fca178cf6b058b,ACAS-Link-Test01,us-gov-west-1b,vol-00ad84411c22cacb6,True,sg-057ac72179c6943fe
+i-026af873c743bf268,keycloak-stable-recovery,us-gov-west-1b,vol-0efc7213ca4a9657c,True,sg-063438d64b6d2181b
+
+SecurityGroupId,GroupName,Protocol,PortRange,Source
+sg-06788356e60a29ba4,rds-ec2-4,tcp,3306-3306,sg-0134fe17f2bc66b8c
+sg-057ac72179c6943fe,Allow_SSH_In,tcp,22-22,10.254.0.0/23;10.146.233.18/32;198.47.69.45/32;3.30.66.224/32;3.32.192.248/32
+sg-0420d4e81f6d32f9e,Allow_DNS,tcp,53-53,0.0.0.0/0
+sg-0420d4e81f6d32f9e,Allow_DNS,udp,53-53,0.0.0.0/0
+sg-0b330e6b8d9a0d2ed,keycloak-test,-1,All-All,10.162.16.0/20
+sg-0eadae2cb045d68ec,AllowAll,-1,All-All,10.162.16.0/20
+sg-00d21b1d98de66fc3,rds-keycloak-001-sg,tcp,5432-5432,168.149.140.201/32
+sg-0963062d0914fd0da,rds-ec2-1,tcp,5432-5432,sg-0b4c61b648ccf00d3
+sg-0da3964c720ac0fe3,Allow_EFS_From_PS_Dev,tcp,2049-2049,10.161.194.0/24;10.161.196.0/24;10.161.192.0/24
+sg-0b94fb8518393edda,rds-keycloak-002-sg,tcp,5432-5432,168.149.138.85/32
+sg-094f8c75db7ad10b4,EHSA-RDS-EC2,tcp,8834-8834,sg-01506f8319fc748e2
+sg-094f8c75db7ad10b4,EHSA-RDS-EC2,tcp,3306-3306,sg-01506f8319fc748e2
+sg-0a54d10baceb1258e,rds-ec2-3,tcp,3306-3306,sg-0a2aef6f493515939
+sg-08640583e0e1ad365,shca-core-dev-app-stack-shcacoredevvpcendpointsecuritygroupFCA61D5B-2VC9CwubcZ0D,tcp,443-443,10.162.16.0/20
+sg-01506f8319fc748e2,launch-wizard-11,tcp,443-443,0.0.0.0/0
+sg-085629487edad1c55,Allow_EFS/NFS_Share,tcp,2049-2049,0.0.0.0/0
+sg-0050c7d2ab3dfb72a,rds-ec2-2,tcp,5432-5432,sg-03c14a32941fe80ef
+sg-063438d64b6d2181b,SSM_SG,-1,All-All,sg-063438d64b6d2181b
+sg-063438d64b6d2181b,SSM_SG,tcp,22-22,10.254.0.0/16
+sg-063438d64b6d2181b,SSM_SG,tcp,443-443,sg-063438d64b6d2181b
+sg-0462a96985a18da0f,launch-wizard-4,tcp,3389-3389,10.162.16.0/20;10.254.0.0/23
+sg-07ad1a27d96b8e7aa,Allow_EFS_From_Local,tcp,2049-2049,10.162.16.0/20
+
+BucketName,Region,VersioningEnabled
+045774384693-aftac-platform-resources,us-gov-west-1,false
+045774384693-lambda-functions,us-gov-west-1,false
+045774384693-logs,us-gov-west-1,false
+045774384693-public-keys,us-gov-west-1,false
+afc2s-server-access-logging-4693,us-gov-west-1,false
+aftac-pla-core-dev-artifacts,us-gov-west-1,false
+aftac-pla-core-dev-dropoff,us-gov-west-1,false
+aftac-pla-core-dev-eks-resources,us-gov-west-1,false
+aftac-pla-core-dev-snowball-test,us-gov-west-1,false
+aws-cloudtrail-logs-045774384693-cb098dfc,us-gov-west-1,false
+aws-config-dump,us-gov-west-1,false
+cdk-hnb659fds-assets-045774384693-us-gov-west-1,us-gov-west-1,false
+cf-templates-8xx5gk6ta9vh0-us-gov-west-1,us-gov-west-1,false
+cf-templates-jfdo2kug7432-us-gov-west-1,us-gov-west-1,false
+cicd-bucket-2,us-gov-west-1,false
+cloudtrail-641c60bb-9ed7-3de5-a75e-8f639712f90d,us-gov-west-1,false
+config-bucket-045774384693,us-gov-west-1,false
+ehsa-application,us-gov-west-1,false
+shca-core-dev-resources-045774384693,us-gov-west-1,true
+
+SubnetId,SubnetName,VpcId,AvailabilityZone,RouteTableId,DestinationCidr,Target
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.64.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.66.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.68.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.80.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.82.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.84.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.192.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.194.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.196.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.240.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.242.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.161.244.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.0.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.2.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.4.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.160.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.162.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.164.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.208.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.210.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.212.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.240.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.242.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.244.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.16.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.18.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.20.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.64.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.66.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.68.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.80.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.82.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.163.84.0/23,tgw-0a361e67607936eac
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.254.0.0/23,pcx-00ebefe90012dec2c
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,10.162.16.0/20,local
+subnet-0bf1dc0dc97b8c95f,pla-core DEV Tenant VPC Private Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-07faac9102d076426,N/A,vpce-078c5864eaba38d83
+subnet-061defb35201f0998,pla-core DEV Tenant VPC DMZ Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-014eda28c97c958c0,10.254.0.0/23,pcx-00ebefe90012dec2c
+subnet-061defb35201f0998,pla-core DEV Tenant VPC DMZ Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-014eda28c97c958c0,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-061defb35201f0998,pla-core DEV Tenant VPC DMZ Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-014eda28c97c958c0,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-061defb35201f0998,pla-core DEV Tenant VPC DMZ Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-014eda28c97c958c0,10.162.16.0/20,local
+subnet-061defb35201f0998,pla-core DEV Tenant VPC DMZ Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-014eda28c97c958c0,N/A,vpce-078c5864eaba38d83
+subnet-0feead4b94ed43b3c,pla-core DEV Tenant VPC DMZ Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-014eda28c97c958c0,10.254.0.0/23,pcx-00ebefe90012dec2c
+subnet-0feead4b94ed43b3c,pla-core DEV Tenant VPC DMZ Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-014eda28c97c958c0,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0feead4b94ed43b3c,pla-core DEV Tenant VPC DMZ Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-014eda28c97c958c0,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0feead4b94ed43b3c,pla-core DEV Tenant VPC DMZ Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-014eda28c97c958c0,10.162.16.0/20,local
+subnet-0feead4b94ed43b3c,pla-core DEV Tenant VPC DMZ Subnet B,vpc-00cb6ffafa96d62b6,us-gov-west-1b,rtb-014eda28c97c958c0,N/A,vpce-078c5864eaba38d83
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.64.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.66.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.68.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.80.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.82.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.84.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.192.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.194.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.196.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.240.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.242.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.161.244.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.0.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.2.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.4.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.160.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.162.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.164.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.208.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.210.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.212.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.240.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.242.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.244.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.16.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.18.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.20.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.64.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.66.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.68.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.80.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.82.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.163.84.0/23,tgw-0a361e67607936eac
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.254.0.0/23,pcx-00ebefe90012dec2c
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,10.162.16.0/20,local
+subnet-0f21567f419c121e5,pla-core DEV Tenant VPC Private Subnet A,vpc-00cb6ffafa96d62b6,us-gov-west-1a,rtb-07faac9102d076426,N/A,vpce-078c5864eaba38d83
+subnet-0216e5b970539e645,pla-core DEV Tenant VPC DMZ Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-014eda28c97c958c0,10.254.0.0/23,pcx-00ebefe90012dec2c
+subnet-0216e5b970539e645,pla-core DEV Tenant VPC DMZ Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-014eda28c97c958c0,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0216e5b970539e645,pla-core DEV Tenant VPC DMZ Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-014eda28c97c958c0,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0216e5b970539e645,pla-core DEV Tenant VPC DMZ Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-014eda28c97c958c0,10.162.16.0/20,local
+subnet-0216e5b970539e645,pla-core DEV Tenant VPC DMZ Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-014eda28c97c958c0,N/A,vpce-078c5864eaba38d83
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.64.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.66.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.68.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.80.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.82.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.84.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.192.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.194.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.196.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.240.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.242.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.161.244.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.0.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.2.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.4.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.160.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.162.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.164.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.208.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.210.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.212.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.240.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.242.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.244.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.16.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.18.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.20.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.64.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.66.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.68.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.80.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.82.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.163.84.0/23,tgw-0a361e67607936eac
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.254.0.0/23,pcx-00ebefe90012dec2c
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,10.162.16.0/20,local
+subnet-0dae062debe84ff4b,pla-core DEV Tenant VPC Private Subnet C,vpc-00cb6ffafa96d62b6,us-gov-west-1c,rtb-07faac9102d076426,N/A,vpce-078c5864eaba38d83

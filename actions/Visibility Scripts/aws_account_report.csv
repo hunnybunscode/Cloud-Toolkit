@@ -1,0 +1,246 @@
+InstanceId,InstanceName,AvailabilityZone,VolumeId,Encrypted,SecurityGroups
+i-0b0c3cd30d18ad8d9,eks ami test start,us-gov-west-1c,vol-087dd9c2d04c78bcd,True,sg-00299c4309ac90079
+i-00c49ba9cc9a43549,EKS Bastion,us-gov-west-1a,vol-0dca0b01b5d2729e5,False,sg-0224805ca030b4c1f;sg-0418136b4609ff1d5
+i-0f3026e47c120e6c0,Workspaces_CDE_AD,us-gov-west-1a,vol-0fe4c7654d6b22f7a,False,sg-0aee2f2e14853bea6
+i-060a92639aa78b6a0,SharedServicesStack/CreateEKSClusters/cluster-Test-Shared-Services-stack/Test-Shared-Services-lt-dafcw-rhel9-compute-stig-xlarge,us-gov-west-1b,vol-0328001366d622a64,True,sg-06a7190eaed4e1c15
+i-030060152ba825e66,aftac-pla-core-test-keycloak-ec2-00,us-gov-west-1c,vol-0c23cb7cbdd7a8f33,True,sg-04252905da4b979ff;sg-06306a1d6e4b0b3eb;sg-0854cfb8a4975023b;sg-0418136b4609ff1d5
+i-091983e8c73869c09,aftac-pla-core-test-keycloak-browser-ec2,us-gov-west-1c,vol-0baa0fa139c61ce25,True,sg-0325f97aa2b4f1d52
+i-0fe7f581caf766559,platform-acas-test,us-gov-west-1c,vol-0afeedc9547c31f55,True,sg-0a92bcf6b88dfb528
+i-08735c901a3577e82,SharedServicesStack/CreateEKSClusters/cluster-Test-Shared-Services-stack/Test-Shared-Services-lt-dafcw-rhel9-compute-stig-xlarge,us-gov-west-1c,vol-0c5b4b94f12cf9a2c,True,sg-06a7190eaed4e1c15
+i-030662c47d55ef998,SharedServicesStack/CreateEKSClusters/cluster-Test-Shared-Services-stack/Test-Shared-Services-lt-dafcw-rhel9-compute-stig-xlarge,us-gov-west-1c,vol-0ca009ba759643ebc,True,sg-06a7190eaed4e1c15
+i-0fa6e82f51f05b268,SharedServicesStack/CreateEKSClusters/cluster-Test-Shared-Services-stack/Test-Shared-Services-lt-dafcw-rhel9-compute-stig-xlarge,us-gov-west-1a,vol-0836d425d468ecdbd,True,sg-06a7190eaed4e1c15
+i-0a838290c14aa3237,FileScanTest,us-gov-west-1b,vol-09ed3db5dc18bc86d,True,sg-0ebd7693d7f3c42ef
+
+SecurityGroupId,GroupName,Protocol,PortRange,Source
+sg-037ae1c446e0e759a,eks-cluster-sg-proserve-keycloak-cluster-723047703,tcp,0-65535,sg-06a785d3f8ec47ee7
+sg-037ae1c446e0e759a,eks-cluster-sg-proserve-keycloak-cluster-723047703,-1,All-All,sg-0a655684644f27e6f
+sg-06306a1d6e4b0b3eb,load-balancer-to-keycloak,tcp,8443-8443,sg-0ad1a57498b8d2d62
+sg-0325f97aa2b4f1d52,keycloak-rdp-browser-sg,tcp,3389-3389,10.254.0.0/23;10.146.224.0/20
+sg-01abb70a68b040f31,DCWHD-6561-Add-EKS-Endpoints-rEndpointSecurityGroup-NSApyUGK8l5M,tcp,443-443,10.146.224.0/20
+sg-0b64e4c422ecd02f9,eks-ack-keycloak-rds,tcp,5432-5432,10.146.224.0/23;10.146.226.0/23;10.146.228.0/23
+sg-01da8343e4d14c7ad,rds-ec2-2,tcp,5432-5432,sg-0854cfb8a4975023b
+sg-0a92bcf6b88dfb528,launch-wizard-2,tcp,22-22,198.47.69.45/32;3.32.192.248/32;3.30.66.224/32;52.222.80.82/32;10.146.233.18/32
+sg-034a31d6e0c502943,vpc-endpoint-sg,tcp,0-65535,10.146.224.0/20;sg-037ae1c446e0e759a;sg-06a785d3f8ec47ee7;sg-034a31d6e0c502943
+sg-0147e9fe53e8451df,InboundSSH,tcp,22-22,10.254.0.0/23
+sg-0418136b4609ff1d5,local-ssh-rdp,tcp,22-22,10.146.224.0/20;10.162.16.0/20;10.254.1.0/24
+sg-0418136b4609ff1d5,local-ssh-rdp,tcp,3389-3389,10.162.16.0/20;10.146.224.0/20;10.254.1.0/24
+sg-04ad16c94cc4d77cb,launch-wizard-1,tcp,22-22,131.25.223.63/32
+sg-0f28d7b98fd594084,keycloak-nlb-sg,tcp,80-80,10.146.224.0/20
+sg-0f28d7b98fd594084,keycloak-nlb-sg,tcp,443-443,10.146.224.0/20
+sg-0ebd7693d7f3c42ef,launch-wizard-3,tcp,22-22,131.25.223.50/32
+sg-0ad1a57498b8d2d62,internet-to-lb,tcp,80-80,10.146.224.0/20;10.162.16.0/20
+sg-0ad1a57498b8d2d62,internet-to-lb,tcp,443-443,10.146.224.0/20;10.162.16.0/20
+sg-03decb23607a85d89,eks-ami-build,tcp,22-22,174.167.109.41/32
+sg-06a7190eaed4e1c15,eks-cluster-sg-Test-Shared-Services-394774101,-1,All-All,sg-06a7190eaed4e1c15
+sg-0a655684644f27e6f,eks-node-sg,tcp,0-65535,sg-037ae1c446e0e759a;sg-06a785d3f8ec47ee7
+sg-0c5dd6b72085d9097,packer_685017df-d286-17c5-69fe-ac3850bfad4c,tcp,22-22,174.167.109.41/32
+sg-0404f5674e9d4ef69,keycloak-webserver-sg,tcp,22-22,10.254.0.0/23
+sg-0404f5674e9d4ef69,keycloak-webserver-sg,tcp,8443-8443,sg-0ebd0bff89371cdad
+sg-0404f5674e9d4ef69,keycloak-webserver-sg,tcp,443-443,sg-0ebd0bff89371cdad
+sg-00299c4309ac90079,InboundWebTraffic,tcp,80-80,10.146.224.0/20;10.162.16.0/20
+sg-00299c4309ac90079,InboundWebTraffic,tcp,8080-8080,10.146.224.0/20;10.162.16.0/20
+sg-00299c4309ac90079,InboundWebTraffic,-1,All-All,sg-0bca54fd2fb5ce5d2
+sg-00299c4309ac90079,InboundWebTraffic,tcp,8443-8443,10.146.224.0/20;10.162.16.0/20
+sg-00299c4309ac90079,InboundWebTraffic,tcp,443-443,10.146.224.0/20;10.162.16.0/20
+sg-008f2bbcf5409f139,rds-ec2-1,tcp,5432-5432,sg-04252905da4b979ff
+sg-0c50f8c6149f2d6c3,rds-keycloak-001-sg,tcp,5432-5432,168.149.138.85/32
+sg-0aee2f2e14853bea6,launch-wizard-7,tcp,389-389,131.25.223.63/32
+sg-0aee2f2e14853bea6,launch-wizard-7,tcp,3389-3389,10.146.224.0/20
+sg-0224805ca030b4c1f,eks-cluster-sg-Test-Shared-Services-security-group,tcp,443-443,sg-0224805ca030b4c1f
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,udp,138-138,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,udp,445-445,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,udp,464-464,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,464-464,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,udp,389-389,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,udp,53-53,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,389-389,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,icmp,-1--1,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,445-445,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,udp,123-123,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,88-88,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,3268-3269,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,1024-65535,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,-1,All-All,sg-0fa35ae6a3a3f4691
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,135-135,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,636-636,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,tcp,53-53,10.146.224.0/20
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,udp,88-88,10.146.224.0/20
+sg-02926384159201297,launch-wizard-4,tcp,22-22,131.25.223.50/32
+sg-0ebd0bff89371cdad,keycloak-alb-sg,tcp,80-80,10.146.224.0/20;10.162.16.0/20;160.1.36.166/32;174.239.85.9/32
+sg-0ebd0bff89371cdad,keycloak-alb-sg,tcp,443-443,10.146.224.0/20;10.162.16.0/20;160.1.36.166/32;174.239.85.9/32
+
+BucketName,Region,VersioningEnabled
+075684568798-aftac-pla-cf-templates,us-gov-west-1,false
+075684568798-aftac-platform-resources,us-gov-west-1,false
+075684568798-lambda-functions,us-gov-west-1,false
+075684568798-logs,us-gov-west-1,false
+075684568798-public-keys,us-gov-west-1,false
+075684568798-us-gov-west-1-local-assets,us-gov-west-1,false
+added-security-hub-findings-logs,us-gov-west-1,false
+afc2s-application-classic-elb-log,us-gov-west-1,false
+afc2s-aws-cloudtrail-logs,us-gov-west-1,false
+aftac-pla-core-test-dropoff,us-gov-west-1,false
+aftac-pla-core-test-lambda-layers,us-gov-west-1,false
+aws-cloudtrail-logs-075684568798-2493043d,us-gov-west-1,false
+aws-waf-logs-core-test,us-gov-west-1,false
+cdk-a-assets-075684568798-us-gov-west-1,us-gov-west-1,false
+cdk-abcde-assets-075684568798-us-gov-west-1,us-gov-west-1,false
+cdk-hnb659fds-assets-075684568798-us-gov-west-1,us-gov-west-1,false
+cdk-hnb659fds-assets2-075684568798-us-gov-west-1,us-gov-west-1,false
+cf-templates-d6cjtacxs0zk-us-gov-west-1,us-gov-west-1,false
+cloudtrail-dd381790-dc62-30ba-b2c2-4a75ee678ddd,us-gov-west-1,false
+cloudtrailmanagement,us-gov-west-1,false
+config-bucket-075684568798,us-gov-west-1,false
+gd-findings-8798,us-gov-west-1,false
+image-builder-logging-075684568798-us-gov-west-1,us-gov-west-1,false
+replication-destination-bucket,us-gov-west-1,false
+server-access-logging-for-security-hub,us-gov-west-1,false
+
+SubnetId,SubnetName,VpcId,AvailabilityZone,RouteTableId,DestinationCidr,Target
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,198.47.88.0/24,igw-0453b8eb0c5b23737
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,131.25.214.0/23,igw-0453b8eb0c5b23737
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,10.254.0.0/23,pcx-08da455b62afe9b0c
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,131.25.220.0/22,igw-0453b8eb0c5b23737
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,131.25.224.0/21,igw-0453b8eb0c5b23737
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,198.47.80.0/21,igw-0453b8eb0c5b23737
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,198.47.64.0/20,igw-0453b8eb0c5b23737
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,10.146.224.0/20,local
+subnet-08aecfb26a565fa4b,pla-core TEST Tenant VPC DMZ Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-040e0a87d3e29ce8a,N/A,vpce-072deadbe6031e17a
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.64.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.66.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.68.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.80.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.82.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.84.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.192.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.194.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.196.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.240.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.242.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.145.244.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.0.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.2.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.4.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.160.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.162.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.164.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.208.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.210.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.212.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.0.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.2.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.4.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.32.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.34.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.36.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.128.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.130.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.132.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.144.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.146.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.147.148.0/23,tgw-0a361e67607936eac
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.254.0.0/23,pcx-08da455b62afe9b0c
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,10.146.224.0/20,local
+subnet-0b3182a2019a09d18,pla-core TEST Tenant VPC Private Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-0b2777ed3e7b7652b,N/A,vpce-072deadbe6031e17a
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,198.47.88.0/24,igw-0453b8eb0c5b23737
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,131.25.214.0/23,igw-0453b8eb0c5b23737
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,10.254.0.0/23,pcx-08da455b62afe9b0c
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,131.25.220.0/22,igw-0453b8eb0c5b23737
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,131.25.224.0/21,igw-0453b8eb0c5b23737
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,198.47.80.0/21,igw-0453b8eb0c5b23737
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,198.47.64.0/20,igw-0453b8eb0c5b23737
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,10.146.224.0/20,local
+subnet-0b951d8651becaedd,pla-core TEST Tenant VPC DMZ Subnet A,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1a,rtb-040e0a87d3e29ce8a,N/A,vpce-072deadbe6031e17a
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.64.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.66.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.68.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.80.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.82.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.84.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.192.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.194.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.196.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.240.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.242.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.145.244.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.0.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.2.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.4.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.160.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.162.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.164.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.208.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.210.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.212.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.0.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.2.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.4.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.32.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.34.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.36.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.128.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.130.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.132.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.144.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.146.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.147.148.0/23,tgw-0a361e67607936eac
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.254.0.0/23,pcx-08da455b62afe9b0c
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,10.146.224.0/20,local
+subnet-0a6b8dcd534a0b7c9,pla-core TEST Tenant VPC Private Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-0b2777ed3e7b7652b,N/A,vpce-072deadbe6031e17a
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.64.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.66.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.68.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.80.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.82.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.84.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.192.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.194.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.196.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.240.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.242.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.145.244.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.0.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.2.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.4.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.160.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.162.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.164.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.208.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.210.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.212.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.0.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.2.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.4.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.32.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.34.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.36.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.128.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.130.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.132.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.144.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.146.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.147.148.0/23,tgw-0a361e67607936eac
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.254.0.0/23,pcx-08da455b62afe9b0c
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,10.146.224.0/20,local
+subnet-03b636815c657538a,pla-core TEST Tenant VPC Private Subnet C,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1c,rtb-0b2777ed3e7b7652b,N/A,vpce-072deadbe6031e17a
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,198.47.88.0/24,igw-0453b8eb0c5b23737
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,131.25.214.0/23,igw-0453b8eb0c5b23737
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,10.254.0.0/23,pcx-08da455b62afe9b0c
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,131.25.220.0/22,igw-0453b8eb0c5b23737
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,131.25.224.0/21,igw-0453b8eb0c5b23737
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,198.47.80.0/21,igw-0453b8eb0c5b23737
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,198.47.64.0/20,igw-0453b8eb0c5b23737
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,10.10.96.0/20,tgw-080538cc95ca94e74
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,10.10.112.0/20,tgw-080538cc95ca94e74
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,10.146.224.0/20,local
+subnet-095193f614066b5e9,pla-core TEST Tenant VPC DMZ Subnet B,vpc-0f3d92ebd7fdb9aaf,us-gov-west-1b,rtb-040e0a87d3e29ce8a,N/A,vpce-072deadbe6031e17a

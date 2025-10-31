@@ -1,0 +1,46 @@
+SecurityGroupId,GroupName,AssociatedWith
+sg-037ae1c446e0e759a,eks-cluster-sg-proserve-keycloak-cluster-723047703,None
+sg-07076f48586b17004,SharedServicesStackCreateEKSClusterscluster-awscdkawseksClusterResourceProviderNestedS-1JLD5D8LM8PG2-IsCompleteHandlerSecurityGroupE0DF1ECF-4mQQlKqHBYFr,ENI
+sg-06306a1d6e4b0b3eb,load-balancer-to-keycloak,ENI
+sg-0325f97aa2b4f1d52,keycloak-rdp-browser-sg,ENI
+sg-01abb70a68b040f31,DCWHD-6561-Add-EKS-Endpoints-rEndpointSecurityGroup-NSApyUGK8l5M,None
+sg-0bca54fd2fb5ce5d2,load-balancer-to-service,Load Balancer
+sg-06a785d3f8ec47ee7,default,VPC Endpoint
+sg-0cce348782b380d00,SharedServicesStackCreateEKSClusterscluster-awscdkawseksClusterResourceProviderNestedS-1JLD5D8LM8PG2-OnEventHandlerSecurityGroup88E14F70-m3gh8vl3pFOz,ENI
+sg-0b64e4c422ecd02f9,eks-ack-keycloak-rds,RDS
+sg-01da8343e4d14c7ad,rds-ec2-2,RDS
+sg-0a92bcf6b88dfb528,launch-wizard-2,ENI
+sg-0908c210173d656ac,amazon-eks-node-al2023-x86_64-standard-1_30-stig-high-imagebuilder-sg,None
+sg-034a31d6e0c502943,vpc-endpoint-sg,VPC Endpoint
+sg-0147e9fe53e8451df,InboundSSH,None
+sg-0418136b4609ff1d5,local-ssh-rdp,ENI
+sg-04ad16c94cc4d77cb,launch-wizard-1,None
+sg-0f28d7b98fd594084,keycloak-nlb-sg,None
+sg-02cea98e4aa20c28f,packer_68500ec1-c5a9-cf3f-95ff-b2756fa401f5,None
+sg-0ebd7693d7f3c42ef,launch-wizard-3,ENI
+sg-047edc5c935d64652,SharedServicesStackCreateEKSClusterscluster-awscdkawseksClusterResourceProviderNestedS-1JLD5D8LM8PG2-ProviderframeworkonEventSecurityGroup94DF26FE-siW3RyJvHEIr,ENI
+sg-0ad1a57498b8d2d62,internet-to-lb,Load Balancer
+sg-0717a3aa211645134,amazon-eks-node-rhel9-x86_64-standard-1_32-stig-high-imagebuilder-sg,None
+sg-03decb23607a85d89,eks-ami-build,None
+sg-06a7190eaed4e1c15,eks-cluster-sg-Test-Shared-Services-394774101,ENI
+sg-092de42d958d0b876,SharedServicesAssetsStack-sglambdageneralaccess4A1ED9C1-DjGufoTcJkNG,ENI
+sg-0a655684644f27e6f,eks-node-sg,None
+sg-0b8d137d1660c076b,amazon-eks-node-rhel9-x86_64-standard-1_30-stig-high-imagebuilder-sg,None
+sg-0c5dd6b72085d9097,packer_685017df-d286-17c5-69fe-ac3850bfad4c,None
+sg-0404f5674e9d4ef69,keycloak-webserver-sg,None
+sg-08d8035b95147c81e,SharedServicesStackCreateEKSClusterscluster-awscdkawseksClusterResourceProviderNestedS-1JLD5D8LM8PG2-ProviderframeworkonTimeoutSecurityGroupF3707689-tFHAYFKX39w8,ENI
+sg-00299c4309ac90079,InboundWebTraffic,ENI
+sg-008f2bbcf5409f139,rds-ec2-1,None
+sg-0854cfb8a4975023b,ec2-rds-2,ENI
+sg-0c50f8c6149f2d6c3,rds-keycloak-001-sg,RDS
+sg-04252905da4b979ff,ec2-rds-1,ENI
+sg-0d92fff444e64dd66,SharedServicesAssetsStack-helmpushtoecrSecurityGroupA3D8541A-5WRvi99zgMkJ,ENI
+sg-0aee2f2e14853bea6,launch-wizard-7,ENI
+sg-0224805ca030b4c1f,eks-cluster-sg-Test-Shared-Services-security-group,ENI
+sg-0a23a0ab2a5bcde32,SharedServicesStackCreateEKSClusterscluster-awscdkawseksClusterResourceProviderNestedS-1JLD5D8LM8PG2-ProviderframeworkisCompleteSecurityGroupE1BAFDD5-N7X568DM6qz6,ENI
+sg-0fa35ae6a3a3f4691,d-98677f0f3d_controllers,ENI
+sg-02926384159201297,launch-wizard-4,None
+sg-02f83c14e7047cddc,SharedServicesAssetsStack-CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1024MiB10240MiBc89fb61b8b81995fec24012c5fa65d308fe00f65c7SecurityGroupE07EE1DF-qdMbr2fQnUlV,ENI
+sg-0f8017d7e305ec9c0,d-98677f0f3d_workspacesMembers,ENI
+sg-0ebd0bff89371cdad,keycloak-alb-sg,Load Balancer
+sg-0f246aa7f8327a3ee,packer_68502b35-87eb-fa5f-09f9-419a08f13479,None

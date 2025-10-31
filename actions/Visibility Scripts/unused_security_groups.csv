@@ -1,0 +1,17 @@
+UnusedSecurityGroupId,GroupName
+sg-037ae1c446e0e759a,eks-cluster-sg-proserve-keycloak-cluster-723047703
+sg-01abb70a68b040f31,DCWHD-6561-Add-EKS-Endpoints-rEndpointSecurityGroup-NSApyUGK8l5M
+sg-0908c210173d656ac,amazon-eks-node-al2023-x86_64-standard-1_30-stig-high-imagebuilder-sg
+sg-0147e9fe53e8451df,InboundSSH
+sg-04ad16c94cc4d77cb,launch-wizard-1
+sg-0f28d7b98fd594084,keycloak-nlb-sg
+sg-02cea98e4aa20c28f,packer_68500ec1-c5a9-cf3f-95ff-b2756fa401f5
+sg-0717a3aa211645134,amazon-eks-node-rhel9-x86_64-standard-1_32-stig-high-imagebuilder-sg
+sg-03decb23607a85d89,eks-ami-build
+sg-0a655684644f27e6f,eks-node-sg
+sg-0b8d137d1660c076b,amazon-eks-node-rhel9-x86_64-standard-1_30-stig-high-imagebuilder-sg
+sg-0c5dd6b72085d9097,packer_685017df-d286-17c5-69fe-ac3850bfad4c
+sg-0404f5674e9d4ef69,keycloak-webserver-sg
+sg-008f2bbcf5409f139,rds-ec2-1
+sg-02926384159201297,launch-wizard-4
+sg-0f246aa7f8327a3ee,packer_68502b35-87eb-fa5f-09f9-419a08f13479
